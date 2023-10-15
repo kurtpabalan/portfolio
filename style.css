@@ -14,6 +14,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.main-nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 10px;
+}
+
 a {
   transition: all 300ms ease;
 }
@@ -142,7 +150,6 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
 }
 
 .section-pic-container {
@@ -250,4 +257,110 @@ section {
 
 .fa-brands:hover {
   cursor: pointer;
+}
+
+.container {
+  width: 86%;
+  margin: 0 auto;
+}
+
+.section-info-1 {
+  align-items: center;
+  width: 100%;
+  border-style: solid;
+  padding: 25px 20px;
+  border-radius: 2rem;
+  flex: 1fr;
+}
+
+.section-info-2 {
+  width: 100%;
+  border-style: solid;
+  padding: 25px 20px;
+  border-radius: 2rem;
+  align-items: center;
+  flex: 1fr;
+}
+
+.section-info-3 {
+  width: 100%;
+  border-style: solid;
+  padding: 25px 20px;
+  border-radius: 2rem;
+  align-items: center;
+  flex: 1fr;
+}
+
+.section-info-4 {
+  width: 100%;
+  border-style: solid;
+  padding: 25px 20px;
+  border-radius: 2rem;
+  align-items: center;
+  flex: 1fr;
+}
+
+.section-container-about {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-container-about-info {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 2rem 2rem;
+}
+
+#about .section-text-p1 {
+  font-weight: 600;
+}
+
+#hero-page {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+
+#about {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+#experience {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+#project {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+#contact {
+  height: 100vh;
+  display: flex;
+}
+
+#hero-page {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+}
+
+/*CONTACT*/
+
+.section-container-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.section-container-contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 3rem;
+  padding: 30px 10px;
 }
